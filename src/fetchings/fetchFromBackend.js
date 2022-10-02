@@ -1,5 +1,5 @@
 export async function createUser(data) {
-  fetch("http://141.136.89.233:9000/api/signUp", {
+  fetch("http://localhost:9000/api/signUp", {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -10,7 +10,7 @@ export async function createUser(data) {
 }
 
 export async function loginUser(data) {
-  const a = fetch("http://141.136.89.233:9000/api/login", {
+  const a = fetch("http://localhost:9000/api/login", {
     method: "POST",
     headers: {
       Accept: "application/json",
